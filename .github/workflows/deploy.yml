@@ -38,7 +38,7 @@ jobs:
       # Task 2: Build and push Docker image
       - name: Build and Push Docker image
         run: |
-           gcloud builds submit --region=us-central1 --tag us-centeral1-docker.pkg.dev/upgradlabs-1746955026011/my-repo/flask-app
+           gcloud builds submit --region=us-central1 --tag us-central1-docker.pkg.dev/upgradlabs-1746955026011/my-repo/flask-app
           # TODO: Build Docker image and push to Artifact Registry
 
       # Task 3: Deploy to Cloud Run
